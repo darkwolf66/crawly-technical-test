@@ -1,20 +1,20 @@
 # Crawly Technical Test
 
-## A aplicação pode ser rodada pelo docker via Laravel Sail ou diretamente pelo docker-compose.yaml
+## The application can be run by docker via Laravel Sail or directly by docker-compose.yaml
 
 ### Adicionar no env
 `CRAWLER_URL="http://applicant-test.us-east-1.elasticbeanstalk.com/"`
 
-## Fazer build do vue via `yarn run build`
+## Build vue via `yarn run build`
 
-## Aplicação está rodando no sail, então pra subir container do docker só rodar `./vendor/bin/sail up` a partir da pasta raiz
-Obs: Docker Linux ou no Windows via WSL2
+## Application is running in sail, so to upload docker container just run `./vendor/bin/sail up` from the root folder
+Obs: Docker Linux or no Windows via WSL2
 
-### Para fazer fetch dos resultados a rota do app é a root "/"
-### Resultado também pode ser retornado via 
+### To fetch the results the app route is the root "/"
+### Result can also be returned via
 `php artisan crawly:get-crawler-answer`
-### Teste unitario para o deobfuscador adicionado
+### Added unit test for deobfuscator
 `php artisan test`
 
 
-Qualquer dúvida fico a disposição will.moraes.96@gmail.com
+Any doubt, I am available at will.moraes.96@gmail.com
